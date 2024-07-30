@@ -4,13 +4,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px 30px;
-  //background-color: #343a40; // Dark background for the navbar
-  //color: #ffffff; // White text color
 
   h1 {
     font-size: 1.8rem;
     margin: 0;
-    color: #222; // White text color for the name
+    color: #222;
   }
 
   .nav-links {
@@ -23,16 +21,12 @@
     li {
       margin-left: 10px;
       a {
-        color: #222; // White icon color
+        color: #222;
         font-size: 1.6rem;
         transition: color 0.3s;
         @media screen and (max-width: 320px) {
           font-size: 1.4rem;
-
         }
-        //&:hover {
-        //  color: #007bff; // Primary color on hover
-        //}
       }
     }
   }

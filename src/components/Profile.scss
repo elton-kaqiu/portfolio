@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 93vh; // Full viewport height
-  background-color: #f8f9fa; // Light background color
+  min-height: 93vh;
+  background-color: #f8f9fa;
   text-align: center;
   padding: 20px;
 
@@ -14,10 +14,10 @@
     h1 {
       font-size: 2.5rem;
       line-height: 1.4;
-      color: #343a40; // Dark text color
+      color: #343a40;
 
       .highlight {
-        color: #007bff; // Highlight color
+        color: #007bff;
         font-weight: bold;
       }
     }
@@ -27,14 +27,14 @@
       padding: 12px 24px;
       border: none;
       border-radius: 8px;
-      background-color: #007bff; // Button color
+      background-color: #007bff;
       color: #ffffff;
       font-size: 1.1rem;
       cursor: pointer;
       transition: background-color 0.3s, transform 0.3s;
 
       &:hover {
-        background-color: #0056b3; // Darker shade on hover
+        background-color: #0056b3;
         transform: scale(1.05);
       }
     }
@@ -44,10 +44,9 @@
     margin-top: 20px;
 
     img {
-      width: 250px; // Adjust size as needed
-      border-radius: 15%; // Slightly rounded profile image
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Shadow effect
-      //border: 4px solid #007bff; // Border color
+      width: 250px;
+      border-radius: 15%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
   }
 }
